@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url("Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url("Montserrat-Bold.otf");
+}
+
+html, body, div
+{
+    height: 100%;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/BZNJq1f.jpg");
+  background-size: cover;
+  background-position: center;
+  height:73vh;
+}
+
+.hero-text h1, h2 {
+  font-family: "Montserrat";
+  margin: 30px;
+  font-weight: 500;
+  color: #F1F2F2;
+}
+
+.hero-text {
+  padding-top: 200px;
+}
+
+h1 {
+  font-size: 4.45em;
+}
+
+.top-page hr {
+  color: #F1F2F2;
+  border: solid 3px;
+  width: 400px;
+}
+
+.body-text {
+  font-family: "lato";
+  color: #f1f2f2;
+}
+section {
+
+  background-color: #0F1E29;
+  margin: 0;
+  height: 60vh;
+}
+
+.div1{
+  padding: 70px;
+  position: relative;
+}
+
+section h2 {
+  margin: auto;
+  font-size: 3.5em
+}
+
+section .row {
+  padding-top: 50px;
+}
+
+.col-xs-4 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.clp {
+  overflow: hidden;
+  height: 90%;
+}
+
+.clp a {
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  background: #fff;
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  text-align: center;
+  max-height: auto;
+  overflow: auto;
+  display: block;
+}
+
+iframe {
+  position: relative;
+  transform: translateY(10%);
+}
