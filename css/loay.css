@@ -4,6 +4,7 @@
   font-weight: 400;
   src: url("Montserrat-Regular.otf");
 }
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -11,75 +12,81 @@
   src: url("Montserrat-Bold.otf");
 }
 
-html, body, div
-{
-    height: 100%;
+html, body, div {
+  height: 100%;
 }
 
 header {
-  text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/BZNJq1f.jpg");
+  text-align: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/BZNJq1f.jpg");
   background-size: cover;
   background-position: center;
-  height:73vh;
 }
 
 .hero-text h1, h2 {
   font-family: "Montserrat";
-  margin: 30px;
+  margin: 0px 0px 0px 60px;
   font-weight: 500;
-  color: #F1F2F2;
+  color: #E2B75F;
+}
+
+
+.top-page {
+  height: 100vh;
 }
 
 .hero-text {
-  padding-top: 200px;
+  padding-top: 40vh;
 }
 
 h1 {
-  font-size: 4.45em;
+  font-size: 10.45em;
+  margin: 0px;
 }
 
-.top-page hr {
-  color: #F1F2F2;
+/*.navsp hr {
+  color: #F1F0F4;
+  border: solid 1px;
+  width: 100%;*/
+
+
+}
+.navsp {
+  /*background-color: #1D2225;*/
+}
+header hr {
+  color: #E2B75F;
   border: solid 3px;
   width: 400px;
 }
-
 .body-text {
   font-family: "lato";
-  color: #f1f2f2;
+  color: #E2B75F;
 }
 section {
-
-  background-color: #0F1E29;
+  background-color: #1D2225;
   margin: 0;
   height: 60vh;
 }
-
-.div1{
-  padding: 70px;
+.div1 {
+  padding: 45px 20px;
   position: relative;
 }
-
 section h2 {
   margin: auto;
   font-size: 3.5em
 }
-
 section .row {
   padding-top: 50px;
 }
-
 .col-xs-4 {
   padding-right: 0px;
   padding-left: 0px;
 }
-
 .clp {
   overflow: hidden;
   height: 90%;
 }
-
 .clp a {
   background-position: center center;
   background-size: cover;
@@ -88,11 +95,24 @@ section .row {
   width: 100%;
   transition: all 0.3s ease-in-out 0s;
 }
-
 a:hover {
   transform: scale(1.2);
 }
-
+li {
+  display: inline;
+  margin-right: 40px;
+  font-size: 1.6em;
+  color: #F1F2F2;
+  font-family: "Montserrat";
+}
+li a {
+  color: #E2B75F;
+}
+li a:hover {
+  background-color: #F1F2F2;
+  color: none;
+  text-decoration: none;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -107,7 +127,6 @@ a:hover {
   visibility: visible;
   opacity: 1;
 }
-
 .popup {
   margin: 70px auto;
   background: #fff;
@@ -126,14 +145,11 @@ a:hover {
   text-decoration: none;
   color: #333;
 }
-
 .popup .content {
   text-align: center;
-  max-height: auto;
   overflow: auto;
   display: block;
 }
-
 iframe {
   position: relative;
   transform: translateY(10%);
