@@ -18,7 +18,7 @@ html, body, div {
 
 header {
   text-align: left;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/BZNJq1f.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/220.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -27,7 +27,7 @@ header {
   font-family: "Montserrat";
   margin: 0px 0px 0px 60px;
   font-weight: 500;
-  color: #E2B75F;
+  color: #f1f2f2;
 }
 
 
